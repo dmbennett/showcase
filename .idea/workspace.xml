@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c529c9e-4ab4-4802-965c-f8b60cb76eca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/about.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/about.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="showcase.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="330">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="welcome.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5867347" vertical-offset="0" max-vertical-offset="1050">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1050">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -73,8 +69,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/about.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" />
+        <option value="$PROJECT_DIR$/app/views/welcome/about.html.erb" />
       </list>
     </option>
   </component>
@@ -465,6 +461,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/yellow-tree-au.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3392857" vertical-offset="0" max-vertical-offset="1020">
@@ -473,23 +474,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/yellow-tree-au.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/about.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="330">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="31" />
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1050">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5867347" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.05102041" vertical-offset="0" max-vertical-offset="588">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
           <folding />
         </state>
       </provider>
