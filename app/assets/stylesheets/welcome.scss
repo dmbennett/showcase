@@ -1,3 +1,58 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+body {
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+
+  background: #447d8d;
+  background: -moz-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #447d8d), color-stop(14%, #447d8d), color-stop(100%, #73acbf));
+  background: -webkit-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -o-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -ms-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: linear-gradient(to right, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#447d8d', endColorstr='#73acbf', GradientType=1 );
+}
+
+h1 {
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+
+  background: #447d8d;
+  background: -moz-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #447d8d), color-stop(14%, #447d8d), color-stop(100%, #73acbf));
+  background: -webkit-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -o-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -ms-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: linear-gradient(to right, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#447d8d', endColorstr='#73acbf', GradientType=1 );
+
+}
+
+p {
+  background: #447d8d;
+  background: -moz-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #447d8d), color-stop(14%, #447d8d), color-stop(100%, #73acbf));
+  background: -webkit-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -o-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -ms-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: linear-gradient(to right, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#447d8d', endColorstr='#73acbf', GradientType=1 );
+}
+
+div {
+  background: #447d8d;
+  background: -moz-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #447d8d), color-stop(14%, #447d8d), color-stop(100%, #73acbf));
+  background: -webkit-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -o-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: -ms-linear-gradient(left, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  background: linear-gradient(to right, #447d8d 0%, #447d8d 14%, #73acbf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#447d8d', endColorstr='#73acbf', GradientType=1 );
+}
