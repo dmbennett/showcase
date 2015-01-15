@@ -63,3 +63,12 @@ div {
   background: linear-gradient(to right, #447d8d 0%, #447d8d 14%, #73acbf 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#447d8d', endColorstr='#73acbf', GradientType=1 );
 }
+
+.center {
+  text-align: center;
+}
+
+.center > div, .center > table /* insert any other block-level elements here */ {
+  margin-left: auto;
+  margin-right: auto;
+}
