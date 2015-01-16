@@ -3,20 +3,25 @@
   <link rel="stylesheet" type="text/css" href="welcome.scss"
 </head>
 
-<body>
-<center>
-  <h1>Dave Bennett: "The most interesting man on the lower level."</h1>
-  <p><i>Once set on doing philosophy, now practicing agile methodology.</i></p>
-  <p><%= image_tag "profile.jpg" %> </p>
-  <p><%= image_tag "sloth-in-space.jpg" %> </p>
-      <p><a href="http://science.time.com/2014/01/22/the-mystery-of-sloth-poop-one-more-reason-to-love-science/">
-        <img src="https://s-media-cache-ak0.pinimg.com/736x/75/62/7b/75627b34b924c6332e08d73f8fb6cce7.jpg"/>
-      </a></p>
-      <p><img src="http://i.imgur.com/na2lWHg.jpg"/></p>
-  <p><%= image_tag "valley-trees.jpg" %> </p>
-  <p><i>Find my actual file in the source code here: app/views/welcome/about.html.erb</i></p>
+<body id="aboutpage">
+    <div class="center-body">
+      <%= image_tag("profile.jpg", class: "round-image-edge image-shadow profile-picture-position")%>
+      <h1 class=center-text>Dave Bennett: "The most intriguing man on the lower level."</h1>
 
-</center>
+      <p class=" center-text"><i>Once set on doing philosophy, now practicing agile methodology.</i> </p>
+
+          <div>
+            <%= image_tag("sloth-in-space.jpg", class:"image-margin")%>
+
+            <a href="http://science.time.com/2014/01/22/the-mystery-of-sloth-poop-one-more-reason-to-love-science/">
+              <img class="image-margin" src="https://s-media-cache-ak0.pinimg.com/736x/75/62/7b/75627b34b924c6332e08d73f8fb6cce7.jpg"/>
+            </a>
+
+            <img class="image-margin" src="http://i.imgur.com/na2lWHg.jpg"/>
+            <%= image_tag "valley-trees.jpg". class:"image-margin" %>
+          </div>
+
+      <p class="center-text"><i>Find my actual file in the source code here: app/views/welcome/about.html.erb</i></p>
+    </div>
 </body>
-
 
