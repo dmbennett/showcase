@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-
 }
   .center-body{
     width: 960px;
@@ -11,8 +10,8 @@ body {
     background-color:transparent;
     background-image:none;
   }
-  body#aboutpage {
 
+  body#aboutpage {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #EFF5F5;
 
@@ -31,34 +30,33 @@ img {
   height:auto;
   }
 
-  .round-image-edge {
-    border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    border: 0px solid #154f60;
-  }
-  .image-shadow {
-    -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
-  }
+    .round-image-edge {
+      border-radius: 200px 200px 200px 200px;
+      -moz-border-radius: 200px 200px 200px 200px;
+      -webkit-border-radius: 200px 200px 200px 200px;
+      border: 0px solid #154f60;
+    }
 
-  .image-margin {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  }
+    .image-shadow {
+      -webkit-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+      box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    }
 
-  .profile-picture-position {
-    width: 100px;
-    height: auto;
-    margin: 10px;
-    display: inline-block;
-    vertical-align: middle;
-  }
+    .image-margin {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
 
-
+    .profile-picture-position {
+      width: 100px;
+      height: auto;
+      margin: 15px;
+      display: inline-block;
+      vertical-align: middle;
+    }
 
 h1 {
   font-weight: 100;
@@ -70,12 +68,15 @@ p {
   }
 
 div {
-
   }
 
 .center-text {
   text-align: center;
   }
+.left-justified{
+  text-align: left;
+  text-wrap: normal;
+}
 
 
 
