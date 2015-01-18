@@ -5,13 +5,13 @@
 body {
 
 }
-  .center-body{
+  .content-wrap{
     width: 960px;
     margin: 0 auto;
     background-color:transparent;
     background-image:none;
   }
-  body#aboutpage {
+  body#page-settings {
 
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #EFF5F5;
@@ -78,4 +78,79 @@ div {
   }
 
 
+.nav ul {
+  background: #D46A6A;
+  background: -moz-linear-gradient(-45deg, #D46A6A 0%, #f76251 57%, #D46A6A 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #D46A6A), color-stop(57%, #f76251), color-stop(100%, #D46A6A));
+  background: -webkit-linear-gradient(-45deg, #D46A6A 0%, #f76251 57%, #D46A6A 100%);
+  background: -o-linear-gradient(-45deg, #D46A6A 0%, #f76251 57%, #D46A6A 100%);
+  background: -ms-linear-gradient(-45deg, #D46A6A 0%, #f76251 57%, #D46A6A 100%);
+  background: linear-gradient(135deg, #D46A6A 0%, #f76251 57%, #D46A6A 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D46A6A', endColorstr='#bd1f0e', GradientType=1 );
 
+  list-style: none;
+  text-align: center;
+
+  padding: 0;
+  margin-top: -10px;
+  margin-bottom: 5px;
+
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  -moz-border-radius: 0px 0px 200px 200px;
+  -webkit--webkit-border-top-right-radius: 0px;
+  -webkit--webkit-border-top-left-radius: 0px;
+  -webkit--webkit-border-bottom-right-radius: 200px;
+  -webkit--webkit-border-bottom-left-radius: 200px;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px opacity(90) #888;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #EFF5F5;
+  display: block;
+  transition: .3s background-color;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+.nav a:hover {
+  background-color: #569DB1;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+.nav a.active {
+  background-color: #EFF5F5;
+  color: #444;
+  cursor: default;
+}
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right:-4px;
+    margin: 4px;
+  }

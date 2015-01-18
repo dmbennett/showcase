@@ -3,13 +3,24 @@
   <link rel="stylesheet" type="text/css" href="welcome.scss"
 </head>
 
-<body id="aboutpage">
-    <div class="center-body">
+<body id="page-settings">
+<div class="nav center-text">
+  <ul>
+    <li class="home"><a href="/welcome/index">Home</a></li>
+    <li class="about"><a href="/welcome/about">About me</a></li>
+    <li class="contact"><a href="/welcome/contact">Contact</a></li>
+  </ul>
+</div>
+    <div class="content-wrap">
+
+
       <%= image_tag("profile.jpg", class: "round-image-edge image-shadow profile-picture-position")%>
       <h1 class=center-text>Dave Bennett: "The most intriguing man on the lower level."</h1>
 
       <p class=" center-text"><i>Once set on doing philosophy, now practicing agile methodology.</i> </p>
-
+      <p class=" center-text">  "Agile Philosophy!?", you say? "Why sloths on your page then?", you say! Look closely
+        dear reader! This is a story about sloths--traditionally slow, vegetative animals--becoming agile in their software delivery.
+      </p>
           <div>
             <%= image_tag("sloth-in-space.jpg", class:"image-margin")%>
 
