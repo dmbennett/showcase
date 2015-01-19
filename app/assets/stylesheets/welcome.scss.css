@@ -5,7 +5,7 @@
     body {
     }
           .content-wrap{
-              width: 960px;
+              max-width: 960px;
               margin-top: 50px;
               margin-right: auto;
               margin-left: auto;
@@ -15,16 +15,14 @@
           }
 
           body#page-settings {
-            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-            color: #EFF5F5;
-
+              font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+              color: #EFF5F5;
 
               background: -webkit-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* Chrome 10+, Saf5.1+ */
               background:    -moz-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* FF3.6+ */
               background:     -ms-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* IE10 */
               background:      -o-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* Opera 11.10+ */
               background:         linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* W3C */
-
           }
 
     img {
@@ -47,10 +45,12 @@
             }
 
             .image-margin {
-              display: inline-block;
+              display: block;
               margin-left: auto;
               margin-right: auto;
               margin-bottom: 10px;
+              max-width: 95%;
+              height: auto;
             }
 
             .profile-picture-position {
@@ -88,10 +88,12 @@
 
         .center-text {
           text-align: center;
+          word-wrap: normal;
           }
         .left-justified{
           text-align: left;
           text-wrap: normal;
+          word-wrap: normal;
         }
 
     .fixed-nav-bar {
@@ -122,10 +124,10 @@
           background:         linear-gradient(90deg, #50C9C3 10%, #96DEDA 90%); /* W3C */
 
           list-style: none;
-        text-align: center;
+          text-align: center;
 
-        padding: 0;
-        margin-top: -6px;
+          padding: 0;
+          margin-top: -6px;
 
 
         border-top-right-radius: 0px;
@@ -185,3 +187,7 @@
           }
 
 
+    .i_subheader {
+        font-weight:200;
+        opacity: 50;
+    }
